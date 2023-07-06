@@ -1,0 +1,158 @@
+/* LOGIN PAGE */
+
+.brand-logo {
+    width: 70%;
+}
+
+.login-hr-line {
+    display: flex;
+    justify-content: center;
+    margin: 20px 40px;
+    border-bottom: 1.5px solid white;
+}
+
+.login-header {
+    color: #fff;
+    text-shadow: 1px 1px 2px #333;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Heebo', sans-serif;
+}
+
+.login-box {
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+    margin-top: 20vh;
+    border-radius: 10px;
+    /* background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 1px 1px 5px #333; */
+}
+
+.login-form {
+    padding: 15px;
+    margin: auto;
+}
+
+.login-field {
+    background-color: white;
+    width: 100%;
+    border: 0.5px solid grey;
+    border-radius: 10px;
+    height: 50px;
+    margin-bottom: 10px;
+    text-indent: 20px;
+    box-shadow: 1px 1px 2px #333;
+}
+
+.login-button-box {
+    background-color: #fdc12a;
+    border: 0px;
+    width: 100%;
+    margin-top: 20px;
+    height: 45px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px #333;
+}
+
+.login-button-text {
+    color: white;
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 3px #333;
+    font-weight: 600;
+    padding: 20px 40px;
+    font-family: 'Heebo', sans-serif;
+}
+
+/* FORM PAGE */
+.form-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: grey;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    grid-gap: 5px;
+    margin: 15px 0px;
+}
+
+.header-logo-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-logo {
+    height: 36px;
+}
+
+.header-logout-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: blue;
+}
+
+.header-desc {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: blue;
+}
+
+.header-username {
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    margin-right: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.form-outer-box {
+    height: 100%;
+}
+
+.form-box {
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px #333;
+}
+
+.form-submit-box {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px #333;
+}
+
+.feedback-title {
+    font-size: 14px;
+}
+
+.tab-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+@media (max-width: 767px) {
+    .brand-logo {
+        width: 70%;
+    }
+
+    .form-submit-box {
+        margin-bottom: 120px;
+    }
+}
